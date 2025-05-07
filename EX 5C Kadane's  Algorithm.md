@@ -5,11 +5,21 @@ To write a python program to find the maximum contiguous subarray.
 
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+1. Initialize:
+
+    a.max_so_far = 0 (stores the overall maximum sum)
+
+    b.current_max = 0 (stores the maximum sum ending at the current position)
+
+2. Iterate: Loop through the array elements.
+
+3. Update current_max: For each element, add it to current_max.
+
+4. Update max_so_far and Reset current_max:
+
+   a.If current_max > max_so_far, update max_so_far to current_max.
+
+   b.If current_max < 0, reset current_max to 0.
 
 ## Program:
 
